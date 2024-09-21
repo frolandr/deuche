@@ -717,23 +717,24 @@ a {
   line-height: 1;
 }
 
-.button--produce {
+.button--produce-white {
   width: 201px;
+  margin-top: 13px;
   padding: 17px 0px;
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgb(227, 1, 15);
   color: rgb(38, 38, 38);
   text-align: center;
-  background-color: rgb(255, 255, 255);
 }
 
-.button--produce--white {
-  margin-top: 13px;
-}
-
-.button--produce--red {
+.button--produce-red {
+  width: 201px;
   margin-top: 14px;
-  color: rgb(255, 255, 255);
+  padding: 17px 0px;
+  border: 1px solid rgb(227, 1, 15);
   background-color: rgb(227, 1, 15);
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .button--more {
@@ -867,14 +868,14 @@ a {
   background-color: rgb(246, 200, 201);
 }
 
-.button--produce--white:hover,
+.button--produce-white:hover,
 .button--design--white:hover,
 .button--why--white:hover,
 .button--steps--white:hover {
   background-color: rgb(240, 240, 240);
 }
 
-.button--produce--white:active,
+.button--produce-white:active,
 .button--design--white:active,
 .button--why--white:active,
 .button--steps--white:active {
@@ -1051,7 +1052,7 @@ a {
 
 .header {
   min-height: 912px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: center 1px;
 }
@@ -3291,6 +3292,7 @@ a {
 }
 
 .price-kitchen__txt-style {
+  display: block;
   margin: 12px 10px;
 }
 
@@ -3324,6 +3326,7 @@ a {
 
 .price-kitchen__label-form-circle {
   position: relative;
+  display: block;
   width: 70px;
   height: 70px;
   margin: 0 auto 12px;
@@ -4947,7 +4950,7 @@ a {
     font-size: 10px;
   }
 
-  .button--produce--white {
+  .button--produce-white {
     margin-top: 11px;
   }
 
@@ -7072,7 +7075,7 @@ a {
     line-height: 14px;
   }
 
-  .button--produce--white {
+  .button--produce-white {
     margin-top: 0;
   }
 
