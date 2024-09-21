@@ -4,7 +4,7 @@ const priceBlock = document.querySelector(".price-kitchen");                   /
 const btnHeader = document.querySelector('.button--price');                    //ссылка на кнопку "Рассчитать стоимость" в секции Header
 btnHeader.addEventListener('click', modalOpen);                                   //вешаем на нее обработчик
 
-const btnPrice = document.querySelectorAll('.button--produce--red');           //ссылки на все кнопки "Рассчитать стоимость" в секции PRODUCE
+const btnPrice = document.querySelectorAll('.button--produce-red');           //ссылки на все кнопки "Рассчитать стоимость" в секции PRODUCE
 for (let i = 0; i < btnPrice.length; i++) {                                    //в цикле устанавливаем обработчик на нужные кнопки
     btnPrice[i].addEventListener('click', modalOpen); 
 }

@@ -1,7 +1,7 @@
 /*============================ Модальное окно ===============================*/
 const formModal = document.querySelector(".form-modal");                       //ссылка на модальное окно с формой
 
-const btnProduceWhite = document.querySelectorAll('.button--produce--white');  //ссылки на все кнопки "Получить каталог" в секции PRODUCE
+const btnProduceWhite = document.querySelectorAll('.button--produce-white');  //ссылки на все кнопки "Получить каталог" в секции PRODUCE
 for (let i = 0; i < btnProduceWhite.length; i++) {                             //в цикле устанавливаем обработчик на нужные кнопки
     btnProduceWhite[i].addEventListener('click', formmodalOpen); 
 }
