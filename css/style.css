@@ -1051,6 +1051,7 @@ a {
 
 .header {
   min-height: 912px;
+  background-color: white;
   background-repeat: no-repeat;
   background-position: center 1px;
 }
