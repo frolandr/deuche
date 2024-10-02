@@ -1529,8 +1529,8 @@ a {
 /*================================ PRODUCE ==================================*/
 
 .no-webp .produce{
-  background: #ffffff url("../img/bg-produce.jpg") center -78px/1920px 2355px, -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(14.46%, rgba(255, 255, 255, 0.55)), color-stop(43.26%, rgba(255, 255, 255, 0.55)), color-stop(68.93%, rgba(255, 255, 255, 0.55)), color-stop(93.84%, #ffffff), to(#ffffff));
-  background: #ffffff url("../img/bg-produce.jpg") center -78px/1920px 2355px, linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 14.46%, rgba(255, 255, 255, 0.55) 43.26%, rgba(255, 255, 255, 0.55) 68.93%, #ffffff 93.84%, #ffffff 100%); }
+  background: url("../img/bg-produce.jpg") center -78px/1920px 2355px, -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(14.46%, rgba(255, 255, 255, 0.55)), color-stop(43.26%, rgba(255, 255, 255, 0.55)), color-stop(68.93%, rgba(255, 255, 255, 0.55)), color-stop(93.84%, #ffffff), to(#ffffff));
+  background: url("../img/bg-produce.jpg") center -78px/1920px 2355px, linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 14.46%, rgba(255, 255, 255, 0.55) 43.26%, rgba(255, 255, 255, 0.55) 68.93%, #ffffff 93.84%, #ffffff 100%); }
 
 .produce {
   min-height: 2355px;
@@ -7842,18 +7842,27 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  .promo__item {
-    color: blue;
+  .title--promo,
+  .title--produce,
+  .title--additional,
+  .title--steps,
+  .title--promo-two,
+  .title--contacts {
+    color: rgb(12, 12, 12);
   }
 
-  .title--promo {
-    color: green;
+  .promo__item {
+    color: rgb(12, 12, 12);
+  }
+
+  .promo-two__item {
+    color: rgb(12, 12, 12);
   }
 }
 
 .webp .header{ background-image: url(../img/bg-header.webp); }
 
-.webp .produce{ background: #ffffff url(../img/bg-produce.webp) center -78px/1920px 2355px, -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(14.46%, rgba(255, 255, 255, 0.55)), color-stop(43.26%, rgba(255, 255, 255, 0.55)), color-stop(68.93%, rgba(255, 255, 255, 0.55)), color-stop(93.84%, #ffffff), to(#ffffff)); background: #ffffff url(../img/bg-produce.webp) center -78px/1920px 2355px, linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 14.46%, rgba(255, 255, 255, 0.55) 43.26%, rgba(255, 255, 255, 0.55) 68.93%, #ffffff 93.84%, #ffffff 100%); }
+.webp .produce{ background: url(../img/bg-produce.webp) center -78px/1920px 2355px, -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(14.46%, rgba(255, 255, 255, 0.55)), color-stop(43.26%, rgba(255, 255, 255, 0.55)), color-stop(68.93%, rgba(255, 255, 255, 0.55)), color-stop(93.84%, #ffffff), to(#ffffff)); background: url(../img/bg-produce.webp) center -78px/1920px 2355px, linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 14.46%, rgba(255, 255, 255, 0.55) 43.26%, rgba(255, 255, 255, 0.55) 68.93%, #ffffff 93.84%, #ffffff 100%); }
 
 .webp .additional{ background: url(../img/bg-additional.webp) center top -8px/1920px 765px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(14.46%, rgba(255, 255, 255, 0.45)), color-stop(43.26%, rgba(255, 255, 255, 0.45)), color-stop(68.93%, rgba(255, 255, 255, 0.45)), to(#FFFFFF)); background: url(../img/bg-additional.webp) center top -8px/1920px 765px no-repeat, linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.45) 14.46%, rgba(255, 255, 255, 0.45) 43.26%, rgba(255, 255, 255, 0.45) 68.93%, #FFFFFF 100%); }
 
