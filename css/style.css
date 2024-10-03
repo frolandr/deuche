@@ -7853,6 +7853,14 @@ a {
 
   .promo__item {
     text-shadow: #330000 1px 0 10px;
+    color: #020202;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .promo__item {
+    text-shadow: none;
+    color: rgb(12, 12, 12);
   }
 }
 
