@@ -7852,9 +7852,9 @@ a {
   }
 
   .promo__item {
-    background-color: #fff;
+    background-color: #000;
     text-shadow: #330000 1px 0 10px;
-    color: #020202;
+    color: #fff;
   }
 }
 
