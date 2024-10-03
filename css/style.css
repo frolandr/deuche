@@ -7848,14 +7848,11 @@ a {
   .title--steps,
   .title--promo-two,
   .title--contacts {
+    font-size: 60px;
     color: black;
   }
 
   .promo__item {
-    color: rgb(12, 12, 12);
-  }
-
-  .promo-two__item {
     color: rgb(12, 12, 12);
   }
 }
