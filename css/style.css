@@ -7852,8 +7852,7 @@ a {
   }
 
   .promo__item {
-    background-color: #000;
-    text-shadow: #330000 1px 0 10px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
     color: #fff;
   }
 }
