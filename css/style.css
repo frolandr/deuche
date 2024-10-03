@@ -7855,6 +7855,11 @@ a {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
     color: #fff;
   }
+
+  .promo-two__item {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: #fff;
+  }
 }
 
 .webp .header{ background-image: url(../img/bg-header.webp); }
