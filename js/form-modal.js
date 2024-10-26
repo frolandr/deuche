@@ -5,12 +5,19 @@ const btnProduceWhite = document.querySelectorAll('.button--produce-white');  //
 for (let i = 0; i < btnProduceWhite.length; i++) {                             //в цикле устанавливаем обработчик на нужные кнопки
     btnProduceWhite[i].addEventListener('click', formmodalOpen); 
 }
-const btnCatalog = document.querySelector(".button--catalog").addEventListener('click', formmodalOpen);
+const btnCatalog = document.querySelectorAll(".button--catalog");
+for (let i = 0; i < btnCatalog.length; i++) {
+    btnCatalog[i].addEventListener('click', formmodalOpen);
+}
+
 const btnWhyWhite = document.querySelector(".button--why--white").addEventListener('click', formmodalOpen);
 const btnStepsWhite = document.querySelector(".button--steps--white").addEventListener('click', formmodalOpen);
 
 const btnDesignRed = document.querySelector(".button--design--red").addEventListener('click', formmodalOpen);
-const btnAdditional = document.querySelector(".button--additional").addEventListener('click', formmodalOpen);
+const btnAdditional = document.querySelectorAll(".button--additional");
+for (let i = 0; i < btnAdditional.length; i++) {
+    btnAdditional[i].addEventListener('click', formmodalOpen);
+}
 
 const btnHeaderLink = document.querySelector(".header__link").addEventListener('click', formmodalOpen);
 
